@@ -354,7 +354,7 @@
 
 .position-abso {
     position: absolute;
-    bottom: 12%;
+    bottom: 5%;
     right: 5%;
 }
 
@@ -396,7 +396,7 @@
 } */
 .comment-btn {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-lg);
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 0em;
@@ -700,6 +700,12 @@
 
     .fs-20 {
         font-size: 18px;
+    }
+
+    .position-abso {
+        position: absolute;
+        bottom: 8%;
+        right: 4%;
     }
 
 
